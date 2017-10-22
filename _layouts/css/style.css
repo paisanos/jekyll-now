@@ -1,0 +1,11 @@
+@import url("components/navbar.css");
+@import url("components/carousel.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 4% auto;
+}
