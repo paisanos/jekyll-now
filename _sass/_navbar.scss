@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  border: 0;
+  border-bottom: solid 1px #dadada;
+  border-radius: 0;
+  background-color: #f9f9f9;
+  color: #505657;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.navbar-brand {
+  max-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+  color: #505657;
+  background-color: #f9f9f9;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #c5c9c7;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #787878;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #dadada;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #dadada;
+}
+
+.logo h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  text-decoration: none;
+  color: #777777;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.logo:hover {
+  color: #505657;
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+}
+
+#header.body-is-scrolled {
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+}

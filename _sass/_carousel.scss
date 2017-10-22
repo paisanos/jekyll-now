@@ -1,0 +1,39 @@
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container {
+  margin: 4% auto;
+}
+
+#icon {
+  max-width: 200px;
+  margin: 1% auto;
+}
+
+.carousel-control {
+  width: 10%;
+}
+
+.glyphicon-menu-left,
+.glyphicon-menu-right {
+  top: 50%;
+  margin-top: -10px; /* fix */
+  z-index: 5;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+  #icon {
+    max-width: 150px;
+  }
+}

@@ -10,42 +10,43 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!--<link rel="stylesheet" href="css/style.css">-->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
 </head>
 <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid padded">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="{{ site.baseurl }}/" class="avatar"><img src="{{ site.avatar }}"/></a>
+        <a href="{{ site.baseurl }}/" class="logo">
+          <h1>FISH | TECH | LIFE</h1>
+        </a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="{{ site.baseurl }}/">Blog</a></li>
           <li><a href="{{ site.baseurl }}/about">About</a></li>
-          <li><a href="{{ site.baseurl }}/profile">Fish Stories</a></li>
+          <li><a href="{{ site.baseurl }}/fish-stories">Fish Stories</a></li>
           <li><a href="{{ site.baseurl }}/books">Good Reads</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="content">
+  <div class="container posts">
     {{ content }}
   </div>
 
   <div class="wrapper-footer">
-    <div class="container">
       <footer class="footer">
         {% include svg-icons.html %}
       </footer>
-    </div>
   </div>
 
   {% include analytics.html %}
