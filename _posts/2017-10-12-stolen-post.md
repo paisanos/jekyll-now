@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Stolen from Miguel
+tags:
+    -stuff
+    -testing
+    -testing123
 ---
 
 Make a site responsive using the Bootstrap [grid system](https://getbootstrap.com/docs/3.3/css/#grid):

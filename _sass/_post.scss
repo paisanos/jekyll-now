@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 790px;
 
 }
 
@@ -11,6 +10,14 @@
   padding: 30px;
   margin: 10px;
   box-shadow: 0px 0px 4px #dadada;
+}
+
+.tags {
+  font-family: 'Inconsolata', monospace;
+  padding: 30px;
+  box-shadow: 0px 0px 4px #dadada
+  flex-grow: 1;
+  margin: 10px;
 }
 
 .post h1 a {
