@@ -4,7 +4,7 @@ layout: mytheme
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-9">
+    <div class="col-xs-12 col-sm-9">
       <div class="content">
         <div class="posts">
           {% for post in site.posts %}
@@ -21,7 +21,7 @@ layout: mytheme
         </div>
       </div>
     </div>
-    <div class="col-sm-3 col-sm-offset-8" style="position:fixed">
+    <div class="hidden-sm-down col-sm-3 col-sm-offset-8" style="position:fixed">
         <div class="tags">
           {% include tags-list.html %}
         </div>
