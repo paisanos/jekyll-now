@@ -2,23 +2,16 @@
 layout: mytheme
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-9">
-      <div class="content">
-        <div class="posts">
-          {% for post in site.posts %}
-            <article class="post">
-
-              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-              <div class="entry">
-                {{ post.content}}
-              </div>
-
-            </article>
-          {% endfor %}
-        </div>
+  <div class="content">
+    <div class="posts">
+      <div class="row">
+        {% for post in site.posts %}
+        <article class="post">
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+          <div class="entry">
+            {{ post.content}}
+          </div>
+        </article>
+        {% endfor %}
       </div>
     </div>
-</div>
